@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 38px;
+}
+
+header h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.links {
+  display: flex;
+  gap: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+.img_header {
+  display: flex;
+  gap: 27px;
+}
+
+.img_header img {
+  cursor: pointer;
+  border-left: 1.8px solid #eee;
+}
+
+#button {
+  width: 337px;
+  height: 74px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  background: rgba(52, 52, 52, 0.99);
+  border: 1.8px solid #ffffff;
+
+}
+
+#button:hover {
+  background-color: white;
+  color: darkorange;
+  border: 1.9px solid darkorange;
+}
+
+#section_title {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  position: relative;
+  background: rgba(52, 52, 52, 0.99);
+}
+
+#section_title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #ffffff;
+}
+
+#section_title h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  color: #ffffff;
+
+}
+
+#section_title p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.text_button {
+  padding-left: 35px;
+  z-index: 2;
+}
+
+.image34_sneaker {
+  height: 90vh;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+
+}
+
+.Container_text_discount {
+  height: 500px;
+  width: 388px;
+  position: relative;
+
+}
+
+.text_discount {
+  position: absolute;
+  bottom: 15px;
+  left: 38%;
+
+}
+
+.text_discount_2 {
+  position: absolute;
+  top: 15px;
+  left: 38%;
+}
+
+.background_2 {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 30%;
+}
+
+.text_discount_2 h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 68px;
+  letter-spacing: 0.05em;
+  position: relative;
+  right: 21px;
+  color: #ffffff;
+}
+
+.text_discount_2 p {
+  font-style: normal;
+  font-weight: 275;
+  font-size: 35px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  position: relative;
+  left: 15px;
+}
+
+.text_discount_2 h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 30%;
+}
+
+.text_discount h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 68px;
+  letter-spacing: 0.05em;
+  position: relative;
+  right: 21px;
+
+  color: #ffffff;
+}
+
+.text_discount p {
+  font-style: normal;
+  font-weight: 275;
+  font-size: 35px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  position: relative;
+  left: 15px;
+}
+
+.text_discount h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.container_two_itens {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+
+.images_off {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sneakers {
+  width: 100%;
+}
+
+.tennis_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tennis_section img {
+  height: 700px;
+  width: 730px;
+}
+
+.tennis_information {
+  display: flex;
+  flex-direction: column;
+  width: 413px;
+}
+
+.tennis_information h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.tennis_information p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.tennis_information a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-decoration: none;
+  margin-top: 30px;
+  color: #000000;
+}
+
+#link_:hover {
+  opacity: 0.5;
+}
+
+.tennis_information img {
+  height: 11px;
+  width: 35px;
+}
+
+.section_images {
+  height: auto;
+}
+
+.container_image {
+  display: flex;
+}
+
+._style_images_one {
+  display: flex;
+  position: relative;
+  width: 50%;
+}
+
+.text_image {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+
+  letter-spacing: 0.05em;
+}
+.image_text {
+  width: 100%;
+}
+
+.final_image {
+  position: relative;
+}
+.final_image img {
+  width: 100%;
+}
+
+.container_products {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin: 100px 0;
+}
+
+.container_products h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+#list_products {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.tennis_box {
+  width: 290px;
+  height: 380px;
+}
+.tennis_box h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.tennis_box p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.tennis_box img {
+  width: 100%;
+}
+
+.item_price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+footer {
+  margin-top: 200px;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.store_section h3 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 45px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.contact_information span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 36px;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  color: rgba(196, 196, 196, 0.8);
+  margin-right: 30px;
+}
+
+span:hover {
+  color: white;
+}
