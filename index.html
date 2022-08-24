@@ -18,13 +18,21 @@
     <div class="container">
       <header>
         <h2>FEET SMART</h2>
-        <div class="links">
-          <a href="#">HOME</a>
-          <a href="#list_products">SHOP</a>
-          <a href="#">PAGES & FEATURES</a>
-          <a href="#">CONTACTS</a>
+        <div id="menulist" class="links">
+          <a class="link_menu" href="">HOME</a>
+          <a class="link_menu" href="">HOME</a>
+          <a class="link_menu" href="#list_products">SHOP</a>
+          <a class="link_menu" href="">PAGES & FEATURES</a>
+          <a class="link_menu" href="">CONTACTS</a>
         </div>
         <div class="img_header">
+          <img
+          id="img_menu"
+          width="35px"
+          height="35px"
+          src="./assets/menu.png"
+          alt="Image_menu"
+        />
           <img
             width="35px"
             height="35px"
@@ -37,12 +45,7 @@
             src="./assets/icons8-heart 1.png"
             alt="Image_coração"
           />
-          <img
-            width="35px"
-            height="35px"
-            src="./assets/shopping-bag-outline 1.png"
-            alt="home"
-          />
+         
         </div>
     
       </header>
@@ -99,9 +102,10 @@
             />
           </div>
         </div>
+        </div>
 
         <div class="tennis_section">
-          <img src="./assets/Vector.png" />
+          <img  src="./assets/Vector.png" />
           <div class="tennis_information">
             <h2>BRING IT ON</h2>
             <p>
@@ -111,9 +115,10 @@
             </p>
             <a id="link_" href="#"
               >SHOP NOW
-              <img width="35px" height="8px" src="./assets/Arrow 1.png"
+              <img id="arrow" src="./assets/Arrow 1.png"
             /></a>
           </div>
+        </div>
         
       </div>
 
@@ -125,7 +130,7 @@
           </div>
           <div class="_style_images_one">
             <img class="image_text" src="./assets/Rectangle 8.png" />
-            <h2 class="text_image">MEN</h2>
+            <h2 class="text_image">WOMEN</h2>
           </div>
         </div>
         <div class="container_image">
@@ -189,4 +194,21 @@
       </footer>
     </div>
   </body>
+  <script>
+    const ImgMenu = document.getElementById("img_menu")
+    const menuList = document.getElementById("menulist")
+    menuList.style.maxHeight = "0px"
+
+    function viewMenu(){
+      if(menuList.style.maxHeight == "0px"){
+        menuList.style.maxHeight = "200px"
+      }  else {
+        menuList.style.maxHeight = "0px"
+
+      }
+    }
+
+    ImgMenu.addEventListener("click" , viewMenu)
+
+  </script>
 </html>

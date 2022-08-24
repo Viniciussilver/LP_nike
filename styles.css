@@ -9,6 +9,10 @@
   min-height: auto;
 }
 
+#img_menu {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -65,7 +69,6 @@ a:hover {
   color: #ffffff;
   background: rgba(52, 52, 52, 0.99);
   border: 1.8px solid #ffffff;
-
 }
 
 #button:hover {
@@ -97,7 +100,6 @@ a:hover {
   font-size: 35px;
   line-height: 52px;
   color: #ffffff;
-
 }
 
 #section_title p {
@@ -118,22 +120,19 @@ a:hover {
   height: 90vh;
   position: absolute;
   right: 0;
+  top: 0;
   z-index: 1;
-
 }
 
 .Container_text_discount {
-  height: 500px;
-  width: 388px;
+  width: 30%;
   position: relative;
-
 }
 
 .text_discount {
   position: absolute;
-  bottom: 15px;
+  top: 15px;
   left: 38%;
-
 }
 
 .text_discount_2 {
@@ -182,8 +181,8 @@ a:hover {
 
 .background {
   position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 30%;
 }
@@ -220,16 +219,14 @@ a:hover {
 }
 
 .container_two_itens {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 140px;
+  padding-top: 80px;
 }
 
 .images_off {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  gap: 10px;
 }
 
 .sneakers {
@@ -240,11 +237,11 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 90px 0;
 }
 
 .tennis_section img {
-  height: 700px;
-  width: 730px;
+  width: 55%;
 }
 
 .tennis_information {
@@ -258,7 +255,6 @@ a:hover {
   font-weight: 700;
   font-size: 60px;
   line-height: 90px;
-  text-align: center;
   letter-spacing: 0.05em;
 
   color: #000000;
@@ -274,6 +270,7 @@ a:hover {
 
 .tennis_information a {
   display: flex;
+
   align-items: center;
   gap: 15px;
   font-style: normal;
@@ -335,7 +332,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin: 20px 0;
+  margin: 100px 0;
 }
 
 .container_products h1 {
@@ -355,8 +352,7 @@ a:hover {
 }
 
 .tennis_box {
-  width: 290px;
-  height: 380px;
+  width: 24%;
 }
 .tennis_box h5 {
   font-style: normal;
@@ -393,10 +389,11 @@ a:hover {
 footer {
   margin-top: 95px;
   width: 100%;
-  height: 100px;
+  height: auto;
+  padding: 28px;
   background-color: black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -422,4 +419,205 @@ footer {
 
 span:hover {
   color: white;
+}
+
+@media screen and (max-width: 815px) {
+  #img_menu {
+    display: block;
+  }
+
+  #section_title {
+    height: 50vh;
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
+
+  #section_title h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #section_title h3 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  #section_title p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  #button {
+    width: 220px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .tennis_section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    margin-top: 290px;
+  }
+
+  .img_header {
+    gap: 15px;
+  }
+
+  .text_button {
+    padding-left: 15px;
+  }
+
+  .tennis_information h2 {
+    font-size: 33px;
+  }
+  .tennis_information {
+    align-items: center;
+  }
+
+  .tennis_information {
+    width: auto;
+  }
+
+  .tennis_information p {
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .tennis_section img {
+    width: 90%;
+  }
+
+  #arrow {
+    width: 40px;
+    height: 15px;
+  }
+  .image34_sneaker {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .contact_information {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_information span {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .store_section h3 {
+    font-size: 16px;
+    margin-right: 18px;
+  }
+
+  .text_image {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .tennis_box h5 {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .tennis_box p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .tennis_box {
+    margin-right: 7px;
+  }
+  .tennis_box span {
+    font-size: 10px;
+    line-height: 5px;
+  }
+  .container_products h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .container_products {
+    height: 20vh;
+  }
+
+  .text_discount h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .text_discount h3 {
+    font-size: 23px;
+    line-height: 29px;
+    right: 7px;
+  }
+  .text_discount p {
+    font-size: 23px;
+    line-height: 25px;
+  }
+
+  .text_discount_2 h4 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .text_discount_2 h3 {
+    font-size: 23px;
+    line-height: 20px;
+    right: 5px;
+  }
+  .text_discount_2 p {
+    font-size: 23px;
+    line-height: 36px;
+  }
+
+  .Container_text_discount {
+    width: 80%;
+  }
+
+  .images_off {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 7px;
+    position: absolute;
+    top: 80px;
+    right: 25px;
+    z-index: 2;
+  }
+
+  #menulist {
+    transition: all 0.8s ease-in-out;
+  }
+  .link_menu {
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 12px;
+    color: darkorange;
+  }
+
+  header h2 {
+    font-size: 26px;
+  }
+
+  header {
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer {
+    margin-top: 230px;
+  }
 }
