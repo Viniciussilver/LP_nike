@@ -334,8 +334,8 @@ a:hover {
 .container_products {
   display: flex;
   flex-direction: column;
-  gap: 70px;
-  margin: 100px 0;
+  gap: 40px;
+  margin: 20px 0;
 }
 
 .container_products h1 {
@@ -391,7 +391,7 @@ a:hover {
 }
 
 footer {
-  margin-top: 200px;
+  margin-top: 130px;
   width: 100%;
   height: 100px;
   background-color: black;
