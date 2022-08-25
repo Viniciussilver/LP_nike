@@ -37,6 +37,7 @@ header h2 {
   font-size: 22px;
   line-height: 33px;
   color: #000000;
+  padding-bottom:30px;  
 }
 
 a {
@@ -348,7 +349,7 @@ a:hover {
 #list_products {
   display: flex;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 25px;
 }
 
 .tennis_box {
@@ -390,12 +391,14 @@ footer {
   margin-top: 95px;
   width: 100%;
   height: auto;
-  padding: 28px;
+  padding: 25px;
   background-color: black;
   display: flex;
   justify-content: space-between;
+  gap:10px;
   align-items: center;
 }
+
 
 .store_section h3 {
   font-style: normal;
@@ -520,6 +523,7 @@ span:hover {
   }
 
   .tennis_box h5 {
+    
     font-size: 11px;
     line-height: 15px;
   }
