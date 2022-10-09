@@ -18,6 +18,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 38px;
+  overflow: auto;
+  
 }
 
 header h2 {
@@ -407,6 +409,9 @@ footer {
   line-height: 45px;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+#menulist{
+
 }
 
 .contact_information span {
