@@ -593,16 +593,12 @@ span:hover {
     gap: 35px;
   }
 
-  header {
-    position: relative;
-  }
-
   .links {
     flex-direction: column;
-    gap: 7px;
+    gap: 17px;
     position: absolute;
-    top: 80px;
-    right: 25px;
+    top: 78px;
+    right: 26px;
     z-index: 2;
   }
 
